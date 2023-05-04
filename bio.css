@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    background-color: azure;
+}
+.header.{
+
+}
+.men {
+    list-style: none; 
+    padding: 16px;
+}
+a {
+    color: #070707;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li a:hover {
+    border-bottom: 1px solid #1783ef;
+    color: #2d2b2d;
+    cursor: pointer;
+    width: 125px;
+    margin-left: 0px;
+    transition: all 0.2s es;
+}
+.menu li a:hover {
+    box-shadow: 0 0 15px #6aabec, inset 0 0 15px #9ac3eb;
+    text-shadow: 0 0 15px #9ac3eb;
+}
+.center {
+    text-align: center;
+}
+.center img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #338feb;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: #338feb;
+}
+.logo {
+    text-align: center;
+    list-style: none;
+}
+.logo img {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    list-style: none;
+    margin: 50px;
+    text-align: center;
+}
+
+.container {
+    padding: 0px 60px;
+}
+section {
+  padding: 10px;
+}
+.discos {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    list-style: none;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50px;
+}
+.discos img {
+
+    width: 150px;
+    height: 150px;
+    list-style: none;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.discos_solo {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 150px;
+}
+.discos_solo img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: -20px;
+    text-align: center;
+}

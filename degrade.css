@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-degrade {
+  width: 100%;
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, rgb(13, 138, 234), rgb(54, 110, 145),rgb(45, 171, 226));
+  background-size: 500% 100%;
+  animation: fundo-degrade 5s infinite alternate;
+}
+
+@keyframes fundo-degrade {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 100%;
+  }
+}
